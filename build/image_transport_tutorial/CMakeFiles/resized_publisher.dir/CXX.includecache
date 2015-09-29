@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sahabi/image_transport_ws/src/image_transport_tutorial/include/image_transport_tutorial/resized_publisher.h
+image_transport/simple_publisher_plugin.h
+-
+image_transport_tutorial/ResizedImage.h
+-
+
+/home/sahabi/image_transport_ws/src/image_transport_tutorial/include/image_transport_tutorial/resized_subscriber.h
+image_transport/simple_subscriber_plugin.h
+-
+image_transport_tutorial/ResizedImage.h
+-
+
+/home/sahabi/image_transport_ws/src/image_transport_tutorial/src/manifest.cpp
+pluginlib/class_list_macros.h
+-
+image_transport_tutorial/resized_publisher.h
+-
+image_transport_tutorial/resized_subscriber.h
+-
+
+/home/sahabi/image_transport_ws/src/image_transport_tutorial/src/resized_publisher.cpp
+image_transport_tutorial/resized_publisher.h
+-
+opencv2/imgproc/imgproc.hpp
+-
+cv_bridge/cv_bridge.h
+-
+
+/home/sahabi/image_transport_ws/src/image_transport_tutorial/src/resized_subscriber.cpp
+image_transport_tutorial/resized_subscriber.h
+-
+cv_bridge/cv_bridge.h
+-
+opencv2/imgproc/imgproc.hpp
+-
+
